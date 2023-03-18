@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/wp8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+input.input {
+    width: 97.5%;
+    padding: 12px;
+    border-radius: 7px;
+    border-style: none;
+    color: blue;
+}
+
+p.p {
+    font-size: 20pt;
+    background-color: #C9EEFF;
+    width: 98%;
+    padding: 10px;
+    font-weight: bold;
+    color: blue;
+    border-radius: 7px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+input.tambah{
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+input.kurang{
+    background-color: purple;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+input.kali{
+    background-color: green;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+input.bagi{
+    background-color: orange;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+input.pangkat{
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+input:hover.tambah{
+    background-color: white;
+    color: blue;
+}
+
+input:hover.kurang{
+    background-color: white;
+    color: purple;
+}
+
+input:hover.kali{
+    background-color: white;
+    color: green;
+}
+
+input:hover.bagi{
+    background-color: white;
+    color: orange;
+}
+
+input:hover.pangkat{
+    background-color: white;
+    color: red;
+}
